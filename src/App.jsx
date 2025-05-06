@@ -57,19 +57,6 @@ function App() {
     getData();
   }, [city, coords]);
 
-  useEffect(() => {
-    async function getSports() {
-      try {
-        const res = await fetch (`http://api.weatherapi.com/v1/astronomy.json?key=${KEY}&q=Kazan`)
-        const data = await res.json();
-        console.log(data);
-      } catch (err) {
-        console.log(err.message);
-      }
-    }
-    getSports();
-  }, [])
-
   function renderError() {
     return <p>{err}</p>;
   }

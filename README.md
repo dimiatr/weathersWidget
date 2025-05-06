@@ -1,8 +1,15 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Виджет текущей погоды в любом месте, поиск по названию города + запрос геолокации на старте работы программы.
 
-Currently, two official plugins are available:
+Технологии которые были задействованы:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- useEffect;
+- REST API;
+- useState;
+- Geolocation API;
+- Асинхронные запросы (async/await, fetch);
+- JSX;
+- Работа с условным рендерингом;
+- React hooks;
+- Стилизация через CSS;
